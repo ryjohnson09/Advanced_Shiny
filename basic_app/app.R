@@ -8,14 +8,9 @@
 #
 
 library(shiny)
-library(shinythemes)
 
 # Define UI for application that draws a histogram
-ui <- fluidPage(theme = shinytheme("darkly"), 
-                # cerulean, cosmo, cyborg, darkly, 
-                # flatly, journal, lumen, paper, readable, 
-                # sandstone, simplex, slate, spacelab, 
-                # superhero, united, yeti
+ui <- fluidPage(
 
     # Application title
     titlePanel("Old Faithful Geyser Data"),
